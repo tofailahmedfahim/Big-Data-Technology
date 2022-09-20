@@ -1,0 +1,92 @@
+个人作业提交起止时间： 22/09/04 10:02~22/09/12 21:59100分查重允许超时提交
+Late Policy: All assignments and projects are due at 11:59pm on the due date. Each assignment and project may be turned in up to 24 hours late for a 10% penalty and up to 48 hours late for a 30% penalty. No assignments or projects will be accepted more than 48 hours late.
+
+Honor Code: Under the Honor Code at CQUT, you are expected to submit your own original work for assignments, projects, and exams. On many occasions when working on assignments or projects (but never exams!) it is useful to ask others -- the instructor or other students -- for hints, or to talk generally about aspects of the assignment. Such activity is both acceptable and encouraged, but you must indicate on all submitted work any assistance that you received. Any assistance received that is not given proper citation will be considered a violation of the Honor Code. In any event, you are responsible for understanding, writing up, and being able to explain all work that you submit.
+
+Due Date
+
+Monday, September 12 at 11:59 PM
+
+ASSIGNMENT 1
+Datasets
+
+This assignment makes use of the following two datasets.
+
+Titanic
+
+Datasets: Titanic.csv
+
+Description: Data on passengers of the RMS Titanic. Entries include the name, age, class, fare, gender, and whether or not the passenger survived.
+
+Notes:
+
+A blank entry for age means that the age is unknown
+Fare can have more than two digits because money was not base-10 at that time
+World Cup
+
+Datasets: Players.csv, Teams.csv
+
+Description: 2010 World Cup data including last name, team, position, minutes played, and game statistics for each player (Players.csv) as well as world ranking, games played in tournaments, and game statistics for each team (Teams.csv)
+
+Notes:
+
+Statistics, including yellowCards and redCards, are for the entire tournament (excluding final game).
+Team ranking is the world ranking going into the tournament, so it may not be 1-32 even though there are only 32 teams
+Submission Instructions
+
+You must create one microsoft word file (.doc/.docx) or PDF(.pdf) containing all of your answers for this assignment, then submit it to the specific platform ( “ketangpai”).
+
+Formatting your submission
+
+Your answers will consist of text for Problems 1-10 and a combination of text and graphics for Problems 11-19.
+Your final submission should be a microsoft word file or pdf file.
+To add graphics to your document, you can either take a screenshot of the chart or copy the chart directly from the Sheets. To do so, click on your chart, and select "Copy chart" from the menu.
+Part 1: Spreadsheet Data Analysis
+
+For each of these problems, submit an answer obtained by performing spreadsheet operations on the provided data and a description/screenshot of how you manipulated the spreadsheet(s) to obtain your answer. We do not require that you write down the exact formula, just describe the procedure and functions used to come to your answer.
+
+World Cup Data
+Problem 1. Which team has the highest ratio of goalsFor/goalsAgainst?
+
+Problem 2. What is the average number of passes made by defenders? By forwards?
+
+Problem 3. What player on a team with "ia" in the team name played less than 200 minutes and made more than 100 passes?
+
+Problem 4. Which team has the highest average number of passes per minute played (and what is that average)?
+
+Problem 5. How many players on a team ranked under 10 (i.e. ranks 1 to 9) played more than 350 minutes?
+
+Titanic Data
+Problem 6. What characteristics are shared by all passengers whose fare is 0?
+
+Problem 7. How many married women over age 50 embarked in Cherbourg? (Married women are denoted by "Mrs.")
+
+Problem 8. Which embarkation city had the highest-paying passengers on average?
+
+Problem 9. What is the most common last name among passengers? What is the average number of passengers per last name?
+
+Problem 10. What's the survival rate for passengers in the three different classes, i.e., what fraction of passengers in each class survived? Find the answer using spreadsheet functions only - don't perform any arithmetic by hand!
+
+Part 2: Data Visualization
+
+For each of these problems, submit a graphic: a bar graph, pie chart, scatterplot, or other visualization. You may either copy and paste visualizations from Spreadsheets into your document, or do a screenshot - either is fine. Also include a brief description of what the graphic is showing and how you used the data to create it.
+
+World Cup Data
+Problem 11. Create a bar chart showing the average number of minutes played by players in each position.
+
+Problem 12. Create a stacked bar chart showing teams that played more than 4 games, with their total number of games divided into wins, draws, and losses.
+
+Problem 13. Create a pie chart showing the relative percentage of teams with 0, 1, and 2 red cards.
+
+Problem 14. Create a scatterplot of players showing passes (x-axis) versus minutes (y-axis). (If you know anything about the World Cup you might think about why there are lines of dots.)
+
+Titanic Data
+Problem 16. Create a bar chart showing the average fare paid by passengers in each class. The three bars should be labeled "first", "second", "third".
+
+Problem 17. Create a stacked bar chart showing the number of passengers in each class, divided into male and female (three bars). Then reverse roles and show the number of passengers of each gender, divided into class (two bars).
+
+Problem 18. Create a pie chart showing the relative number of male survivors, male non-survivors, female survivors, and female non-survivors (four slices).
+
+Problem 19. Let "youth" denote passengers whose age is under 18, "adult" denote passengers age 18-59, and "senior" denote passengers whose age is 60 and above. Create a pie chart with four slices showing the relative number of youth, adult, senior, and those whose age is unknown. Hint: consider using function ==if(*,*,if(*,*,*))..
+
+ 
